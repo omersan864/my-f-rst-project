@@ -1,0 +1,59 @@
+    1. soru : verilen  diziyi insertion sort türünden sırala [22,27,16,2,18,6]
+
+1. adım : [2,27,16,22,18,6]
+2. adım : [2,6,16,22,18,27]
+3. adım : [2,6,16,22,18,27]
+
+insertion sıraslaması yukarıda bulunmaktadır 
+
+
+2. soru  : Big O gösterimini yazınız  6 eleman baz alınrak yapılabilir dizimiz 6 elemndan oluşuyor 
+n + (n-1) + (n-2) + (n-3) ...... 1 e kadar devam edecek ve her elemana bakacak 
+
+1'den n'e kadar olan elemanları bulmak için 
+
+(n * (n+1))/2  bu işlemi sadeştirirsek eğer 
+
+((n*n)+n)/2
+
+big o notation  domine eden fonksiyonu aldığı için n*n fonksiyonunu alırız 
+
+
+
+3. soru :Time Complexity: Average case: Aradığımız sayının ortada olması,
+	 Worst case: Aradığımız sayının sonda olması, 
+	 Best case: Aradığımız sayının dizinin en başında olması.
+
+worst case olarak 27 değerini alırız   altı eleman oldu için big o notatin için de 6 diyebiliriz 
+average case  16 veya 18 değerini alabiliriz 
+best case için ise 2 değerini alırsak algoritmamız olabildiğince hızlı çalışacaktır 
+
+4. soru : Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
+
+average case kapsamına girer 
+
+
+
+5. soru :   [7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort'a göre ilk 4 adımını yazınız.
+
+1. adım : [2,3,5,8,7,9,4,15,6]
+
+2. adım : [2,3,8,7,9,4,15,6]
+
+3. adım : [2,3,4,8,7,9,4,15,6]
+
+4. adım : [2,3,4,5,7,9,8,15,6]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
